@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/text_on"
+        android:icon="?android:attr/actionModePasteDrawable"
+        android:orderInCategory="201"
+        android:title="显示播放文本"
+        app:showAsAction="always"/>
+    <item android:id="@+id/share_qr"
+        android:title="面对面分享"/>
+    <item android:icon="@drawable/wx" android:orderInCategory="201" android:title="微信">
+        <menu>
+            <item android:id="@+id/wx_sc" android:enabled="true" android:icon="@drawable/sc" android:title="收藏" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/wx_fs" android:enabled="true" android:icon="@drawable/fs" android:title="发送" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/wx_pyq" android:enabled="true" android:icon="@drawable/pyq" android:title="分享" android:visible="true" app:showAsAction="always"/>
+        </menu>
+    </item>
+    <item android:icon="@mipmap/ic_launcher" android:orderInCategory="201" android:title="亮度">
+        <menu>
+            <item android:id="@+id/light_a" android:enabled="true" android:title="☆☆☆☆☆" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/light_b" android:enabled="true" android:title="☆☆☆☆" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/light_c" android:enabled="true" android:title="☆☆☆" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/light_d" android:enabled="true" android:title="☆☆" android:visible="true" app:showAsAction="always"/>
+        </menu>
+    </item>
+    <item android:icon="@mipmap/ic_launcher" android:orderInCategory="201" android:title="关于我们">
+        <menu>
+            <item android:id="@+id/home_page" android:enabled="true" android:title="主页" android:icon="@drawable/homepage" android:visible="true" app:showAsAction="always"/>
+            <item android:id="@+id/donate" android:icon="@drawable/donate" android:orderInCategory="201" android:title="支付宝打赏" app:showAsAction="always" />
+        </menu>
+    </item>
+</menu>

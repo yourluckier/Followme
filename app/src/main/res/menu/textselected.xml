@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/it_badu_fy"
+        android:title="查单词" />
+    <item
+        android:id="@+id/it_fy_sentence"
+        android:title="翻译本句"
+        />
+    <!--<item-->
+        <!--android:id="@+id/it_wx_sc"-->
+        <!--android:title="微信收藏单词"-->
+        <!--/>-->
+    <!--<item-->
+        <!--android:id="@+id/it_wx_fx"-->
+        <!--android:title="分享到朋友圈" />-->
+</menu>
